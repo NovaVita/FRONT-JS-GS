@@ -1,6 +1,6 @@
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import Container from "react-bootstrap/Container";
+// import Button from "react-bootstrap/Button";
+// import Form from "react-bootstrap/Form";
+// import Container from "react-bootstrap/Container";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom';
@@ -11,6 +11,7 @@ import {
   MDBCol,
   MDBInput,
 } from "mdb-react-ui-kit";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -32,7 +33,7 @@ export default function Login() {
     let user = users;
 
     try {
-      const response = await fetch("https:///usuarios");
+      const response = await fetch("https://localhost:3000/usuarios");
       users = await response.json();
     } catch (error) {
       alert("Ocorreu um erro no processamento da sua solicitação!");
@@ -45,7 +46,7 @@ export default function Login() {
         console.log(tokenUser);
         sessionStorage.setItem("token-user", tokenUser);
         sessionStorage.setItem("data-user", JSON.stringify(user));
-        navigate("/dashboard");
+        navigate("/");
         return;
       }
     }
@@ -61,7 +62,7 @@ export default function Login() {
     <MDBContainer className="my-5 gradient-form">
       <MDBRow>
         <MDBCol col="6" className="mb-5">
-          <form className="d-flex flex-column ms-5" onSubmit={handleSubmit}>
+          <form className="d-flex flex-column" onSubmit={handleSubmit}>
 
             <p>Faça seu login:</p>
 
