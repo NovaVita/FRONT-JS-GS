@@ -2,8 +2,7 @@
 // import Form from "react-bootstrap/Form";
 // import Container from "react-bootstrap/Container";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom';
+import { useNavigate, Link } from "react-router-dom";
 import {
   MDBBtn,
   MDBContainer,
@@ -33,7 +32,7 @@ export default function Login() {
     let user = users;
 
     try {
-      const response = await fetch("https://localhost:3000/usuarios");
+      const response = await fetch("http://localhost:3000/usuarios");
       users = await response.json();
     } catch (error) {
       alert("Ocorreu um erro no processamento da sua solicitação!");
@@ -57,32 +56,31 @@ export default function Login() {
       senha: "",
     });
   };
-  
+
   return (
     <MDBContainer className="my-5 gradient-form">
       <MDBRow>
         <MDBCol col="6" className="mb-5">
           <form className="d-flex flex-column" onSubmit={handleSubmit}>
-
-            <p>Faça seu login:</p>
+            <p>Faça seu Login:</p>
 
             <MDBInput
               wrapperClass="mb-4"
-              label="Endereço de Email"
+              label="Digite seu email"
               type="email"
               name="email"
               id="idEmail"
-              placeholder="Digite seu email"
+              placeholder="Email"
               value={usuario.email}
               onChange={handleChange}
             />
             <MDBInput
               wrapperClass="mb-4"
-              label="Senha"
+              label="Digite sua senha"
               type="password"
               name="senha"
               id="idSenha"
-              placeholder="Digite sua senha"
+              placeholder="Senha"
               value={usuario.senha}
               onChange={handleChange}
             />
@@ -99,8 +97,10 @@ export default function Login() {
           <div className="d-flex flex-row align-items-center justify-content-center pb-4 mb-4">
             <p className="mb-0">Não possui uma conta?</p>
             <div className="mx-2">
-              <Link to="/">
-                <MDBBtn outline id="custom2">Registrar</MDBBtn>
+              <Link to="/cadastro">
+                <MDBBtn outline id="custom2">
+                  Registrar
+                </MDBBtn>
               </Link>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function Login() {
     //     <Button href="/" variant="primary" type="submit" className="mb-4">
     //       Voltar à página principal
     //     </Button>
-        
+
     //     <Form.Group className="mb-3" controlId="formBasicEmail">
 
     //       <Form.Label>Endereço de Email</Form.Label>

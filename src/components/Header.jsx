@@ -12,8 +12,8 @@ function Teste() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/erro404">Home</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/erro404">Page1</NavDropdown.Item>
+            <NavDropdown title="Acessos" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/erro404">Monitoramento</NavDropdown.Item>
               <NavDropdown.Item href="/erro404">Page2</NavDropdown.Item>
               <NavDropdown.Item href="/erro404">Page3</NavDropdown.Item>
 
