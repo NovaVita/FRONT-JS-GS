@@ -20,11 +20,10 @@ export default function MainSection() {
             <div className="h_ftright">
               <div className="containerBox">
                 <h1 style={{ color: '#3D3F42', fontWeight: "bold" }}>Conheça Nosso APP!</h1>
-                <p className='text-secondary my-4'>O NovaVita APP, foi feito com o paciente em mente, é nele que você pode ver as informações dos sensores, </p>
-                <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quibusdam sed aut sint voluptatem laudantium reiciendis cumque dolores culpa nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus labore voluptatum dolores modi cupiditate quaerat optio quas dicta! Sequi, facere.</p>
+                <p className='text-secondary my-4'>O NovaVita APP, foi feito com o paciente em mente, é nele que você pode ver as informações de todos os sensores, recebe avisos do Soul caso algum sensor fique fora do comum e muito mais!</p>
+                <p className='text-secondary'>Aqui temos um pequeno spoiler de como o NovaVitaAPP ficará quando pronto, dê uma olhada!</p>
                 <div className="d-flex justify-content-between align-items-start w-50 mt-4">
-                  <Button className='bg_login fw-bold border-0'>order food</Button>
-                  <Button className='contact_btn'>contact us</Button>
+                  <Button className='contact_btn' href='/novavitaapp'>Spoiler</Button>
                 </div>
               </div>
             </div>
