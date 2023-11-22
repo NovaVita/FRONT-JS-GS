@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header.jsx";
 import Footer from "../../components/Footer.jsx";
+import "../../style/header.scss";
 
 export default function Home() {
   const navigate = useNavigate();

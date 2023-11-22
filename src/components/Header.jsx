@@ -10,6 +10,8 @@ export default function Teste() {
     navigate("/login");
   };
 
+  const obJUser = JSON.parse(sessionStorage.getItem("data-user"));
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -29,7 +31,6 @@ export default function Teste() {
               <NavDropdown.Item href="/aboutus">Sobre Nós</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-
           <Nav>
             <b onClick={handleLogout}>
               <Nav.Link href="/login" className="ml-auto">
@@ -42,6 +43,14 @@ export default function Teste() {
               </Nav.Link>
             </b>
           </Nav>
+          <b>
+            <div className="objUserNome">
+              <p>{obJUser != null ? `Nome: ${obJUser.name}` : ""}</p>
+            </div>
+            <div className="objUserEmail">
+              <p>{obJUser != null ? `Email: ${obJUser.email}` : ""}</p>
+            </div>
+          </b>
         </Navbar.Collapse>
       </Container>
     </Navbar>
