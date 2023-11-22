@@ -1,6 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import Card from 'react-bootstrap/Card';
-import "../style/footer.scss";
+import './footer.scss';
 
 function BasicExample() {
     return (
