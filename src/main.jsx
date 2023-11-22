@@ -8,6 +8,7 @@ import Login from "./routes/Login/Login.jsx";
 import Aboutus from "./routes/AboutUs/Aboutus.jsx";
 import Cadastro from "./routes/Cadastro/Cadastro.jsx";
 import Monitoramento from "./routes/Monitoramento/Monitoramento.jsx";
+import NovaVitaAPP from "./routes/NovaVitaAPP/NovaVitaAPP.jsx"
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: "/aboutus", element: <Aboutus /> },
       { path: "/cadastro", element: <Cadastro />},
       { path: "/monitoramento", element: <Monitoramento />},
+      { path: "/novavitaapp", element: <NovaVitaAPP />},
     ],
   },
 ]);
