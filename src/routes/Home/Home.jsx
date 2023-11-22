@@ -1,13 +1,25 @@
-import Header from '../../components/Header.jsx';
-import Footer from '../../components/Footer.jsx';
-import MainHome from "../../components/MainHome.jsx"
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import Header from "../../components/Header.jsx";
+import Footer from "../../components/Footer.jsx";
+import "../../style/header.scss";
 
-export default function Home(){
-    return(
-        <>
-            <Header/>
-            <MainHome/>
-            <Footer/>
-        </>
+export default function Home() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (!sessionStorage.getItem("token-user")) {
+      navigate("/login");
+    }
+  }, [navigate]);
+
+  if (sessionStorage.getItem("token-user")) {
+    return (
+      <>
+        <Header />
+        <Footer />
+      </>
     );
+  } else {
+    return null;
+  }
 }

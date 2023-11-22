@@ -1,6 +1,3 @@
-// import Button from "react-bootstrap/Button";
-// import Form from "react-bootstrap/Form";
-// import Container from "react-bootstrap/Container";
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import {
@@ -107,33 +104,5 @@ export default function Login() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-
-    // <Container>
-    //   <Form className="mt-4" onSubmit={handleSubmit}>
-
-    //     <Button href="/" variant="primary" type="submit" className="mb-4">
-    //       Voltar à página principal
-    //     </Button>
-
-    //     <Form.Group className="mb-3" controlId="formBasicEmail">
-
-    //       <Form.Label>Endereço de Email</Form.Label>
-    //       <Form.Control type="email" placeholder="Adicionar Email" />
-    //       <Form.Text className="text-muted">
-    //         Nós nunca iremos compartilhar seu e-mail com ninguém!
-    //       </Form.Text>
-    //     </Form.Group>
-
-    //     <Form.Group className="mb-3" controlId="formBasicPassword">
-    //       <Form.Label>Senha</Form.Label>
-    //       <Form.Control type="password" placeholder="Adicionar Senha" />
-    //     </Form.Group>
-
-    //     <Button href="/" variant="primary" type="submit">
-    //       Enviar
-    //     </Button>
-
-    //   </Form>
-    // </Container>
   );
 }

@@ -116,11 +116,11 @@ export default function Cadastro() {
               >
                 Cadastrar
               </MDBBtn>
-              <div className="text-muted">
+              {/* <div className="text-muted">
                 <a className="custom1" href="/">
                   Home
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="d-flex flex-row align-items-center justify-content-center pb-4 mb-4">
