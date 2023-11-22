@@ -84,11 +84,11 @@ export default function Login() {
 
             <div className="text-center pt-1 mb-5 pb-1">
               <MDBBtn className="mb-4 w-100 gradient-custom-2">Login</MDBBtn>
-              {/* <div className="text-muted">
+              <div className="text-muted">
                 <a className="custom1" href="/">
                   Home
                 </a>
-              </div> */}
+              </div>
             </div>
           </form>
           <div className="d-flex flex-row align-items-center justify-content-center pb-4 mb-4">
