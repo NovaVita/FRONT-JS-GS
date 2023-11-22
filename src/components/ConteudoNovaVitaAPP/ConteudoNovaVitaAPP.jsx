@@ -1,7 +1,7 @@
 import  Row  from 'react-bootstrap/Row';
 import  Container from 'react-bootstrap/Container';
 import  Col  from 'react-bootstrap/Col';
-import Soul1 from '../../assets/soul-1-png.png'
+import APP1 from '../../assets/1.png'
 import NVAPPSection from '../NVAPPSection/NVAPPSection';
 import "./ConteudoNovaVitaAPP.scss"
 
@@ -15,9 +15,9 @@ export default function ConteudoNovaVitaAPP() {
                         <div className="head_left">
                             <span className='h_subTitle'>Saúde e Praticidade</span>
                             <div className="w-75 mt-2 h_title">
-                                <h1 style={{ color: '#03658C' }}>Soul</h1>
-                                <h1 style={{ color: '#3D3F42' }}>Dispositivo</h1>
-                                <h1 style={{ color: '#3D3F42' }}>De Monitoramento Remoto</h1>
+                                <h1 style={{ color: '#03658C' }}>NovaVitaAPP</h1>
+                                <h1 style={{ color: '#3D3F42' }}>Aplicativo</h1>
+                                <h1 style={{ color: '#3D3F42' }}>De Saúde e Monitoramento</h1>
                             </div>
                             <p className='text-secondary'>
                                 Descubra um novo mundo de saúde remota, com muita mais praticidade, facilidade e segurança na palma da sua mão.
@@ -25,9 +25,9 @@ export default function ConteudoNovaVitaAPP() {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <div className="head_right">
-                            <div className="imageContainer d-flex justify-content-end align-items-center shadow-sm rounded">
-                                <img src={Soul1} alt="Soul-imagem" className='head_rightImg' />
+                        <div className="parte-direita">
+                            <div className="imageContainer d-flex justify-content-center align-items-center shadow-sm rounded">
+                                <img src={APP1} alt="Soul-imagem" className='Img-direita' />
                             </div>
                         </div>
                     </Col>
