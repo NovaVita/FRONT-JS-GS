@@ -2,7 +2,7 @@ import  Row  from 'react-bootstrap/Row';
 import  Container from 'react-bootstrap/Container';
 import  Col  from 'react-bootstrap/Col';
 import  Button from 'react-bootstrap/Button';
-
+import "./MainHome.scss"
 export default function MainHome() {
 
     return(
@@ -11,18 +11,18 @@ export default function MainHome() {
                 <Row>
                     <Col md={6}>
                         <div className="head_left">
-                            <span className='h_subTitle'>Healthy & tasty food</span>
+                            <span className='h_subTitle'>Saúde e Praticidade</span>
                             <div className="w-75 mt-2 h_title">
-                                <h1 style={{ color: '#FB9431' }}>Achieve Optimal</h1>
-                                <h1 style={{ color: '#3D3F42' }}>With Our Nutritious</h1>
-                                <h1 style={{ color: '#3D3F42' }}>Meal Plans</h1>
+                                <h1 style={{ color: '#03658C' }}>Soul</h1>
+                                <h1 style={{ color: '#3D3F42' }}>Nosso Dispositivo</h1>
+                                <h1 style={{ color: '#3D3F42' }}>De Monitoramento Remoto</h1>
                             </div>
                             <p className='text-secondary'>
                                 Discover a world of delicious salad at our online salad paradise. salad meals are ready to eat in a minutes so save time energy.
                             </p>
                             <div className="d-flex justify-content-between align-items-start w-50 mt-4">
                                 <Button className='bg_login fw-bold border-0'>order food</Button>
-                                <Button className='contact_btn'>contact us</Button>
+                                <Button className='contact_btn' href='/aboutus'>Contact Us</Button>
                             </div>
                         </div>
                     </Col>
