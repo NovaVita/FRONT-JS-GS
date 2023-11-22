@@ -4,7 +4,7 @@ import './footer.scss';
 
 function BasicExample() {
     return (
-      <footer className="custom-footer fixed-bottom">
+      <footer className="custom-footer relative-bottom">
         <div className="container">
           <Nav className="justify-content-center">
             <Card.Text>

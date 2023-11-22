@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import MainHome from "../../components/MainHome/MainHome.jsx"
+import MainSection from "../../components/MainSection/MainSection.jsx";
 import "../../components/Header/header.scss";
 
 export default function Home() {
