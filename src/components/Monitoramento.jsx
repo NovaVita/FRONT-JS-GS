@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import ReactApexChart from "react-apexcharts";
 
 export default function Monitoramento() {
@@ -84,6 +85,10 @@ export default function Monitoramento() {
   return (
     <div className="chart-container">
       <h1 className="titulo">Quadro de Gráficos</h1>
+
+      <Link to="/">
+        <button className="botaoVoltar">Home</button>
+      </Link>
 
       <div className="top-row">
         <div className="chart">

@@ -78,7 +78,7 @@ export default function Cadastro() {
     <MDBContainer className="my-5 gradient-form">
       <MDBRow>
         <MDBCol col="6" className="mb-5">
-          <form className="d-flex flex-column">
+          <div>
             <p>Faça seu Cadastro:</p>
 
             <MDBInput
@@ -122,7 +122,7 @@ export default function Cadastro() {
                 </a>
               </div>
             </div>
-          </form>
+          </div>
           <div className="d-flex flex-row align-items-center justify-content-center pb-4 mb-4">
             <p className="mb-0">Já possui uma conta?</p>
             <div className="mx-2">
@@ -136,44 +136,5 @@ export default function Cadastro() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-    // <div class="container">
-    //   <h2 className="cadH">Cadastro de Usuário:</h2>
-    //   <div class="mb-3">
-    //     <input
-    //       type="text"
-    //       class="form-control"
-    //       name="name"
-    //       placeholder="Nome"
-    //       value={novoUsuario.name}
-    //       onChange={handleChange}
-    //     />
-    //   </div>
-    //   <div class="mb-3">
-    //     <input
-    //       type="email"
-    //       class="form-control"
-    //       name="email"
-    //       placeholder="Digite seu email"
-    //       value={novoUsuario.email}
-    //       onChange={handleChange}
-    //     />
-    //   </div>
-    //   <div class="mb-3">
-    //     <input
-    //       type="password"
-    //       class="form-control"
-    //       name="senha"
-    //       placeholder="Digite sua senha"
-    //       value={novoUsuario.senha}
-    //       onChange={handleChange}
-    //     />
-    //   </div>
-    //   <button class="btnCad" onClick={handleRegistro}>
-    //     Cadastrar
-    //   </button>
-    //   <button class="btnVolt" onClick={handleVoltarLogin}>
-    //     Voltar para o Login
-    //   </button>
-    // </div>
   );
 }
