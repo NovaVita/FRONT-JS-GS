@@ -1,9 +1,9 @@
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 
-import logo932x180 from "../assets/logo932x280.png";
-import fototomaz from "../assets/foto-tomaz.jpeg";
-import fotorony from "../assets/foto-rony.png";
+import logo932x180 from "../../assets/logo932x280.png";
+import fototomaz from "../../assets/foto-tomaz.jpeg";
+import fotorony from "../../assets/foto-rony.png";
 
 function Aboutus() {
   return (

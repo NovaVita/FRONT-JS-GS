@@ -1,5 +1,5 @@
-import Cadastro from "../../components/Cadastro.jsx";
-import Footer from '../../components/Footer.jsx';
+import Cadastro from "../../components/Cadastro/Cadastro.jsx";
+import Footer from '../../components/Footer/Footer.jsx';
 
 export default function Loginn(){
     return(
