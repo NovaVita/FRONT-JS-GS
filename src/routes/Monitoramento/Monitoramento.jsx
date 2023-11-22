@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "../../components/Header.jsx";
-import Monitoramento from "../../components/Monitoramento.jsx";
-import Footer from "../../components/Footer.jsx";
-import "../../style/monitoramento.scss";
+import Header from "../../components/Header/Header.jsx";
+import Monitoramento from "../../components/Monitoramento/Monitoramento.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
+import "./monitoramento.scss";
 
 export default function Loginn() {
   const navigate = useNavigate();

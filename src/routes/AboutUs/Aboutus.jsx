@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Aboutus from "../../components/Aboutus.jsx";
-import Teste from "../../components/Header.jsx";
-import Footer from "../../components/Footer.jsx";
+import Aboutus from "../../components/AboutUs/Aboutus.jsx";
+import Teste from "../../components/Header/Header.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 export default function Aboutuss() {
   const navigate = useNavigate();
