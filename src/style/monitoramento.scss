@@ -1,0 +1,74 @@
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.titulo {
+  color: #252525;
+  margin: 20px;
+  text-align: left;
+  font-size: 4rem;
+}
+
+.top-row,
+.bottom-row,
+.toptop-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.bottom-row {
+  margin-bottom: 60px;
+}
+
+.chart {
+  flex: 1;
+  min-width: calc(50% - 10px);
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #368abf;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  transition: 0.3s;
+  &:hover {
+    border: 3px solid #368abf;
+    font-size: 30px;
+    transition: 0.1s;
+  }
+}
+
+.chart-label {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1px;
+  color: #252525;
+}
+
+.apexcharts-tooltip {
+  background: #368abf;
+  color: #368abf;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.apexcharts-menu-item.exportCSV {
+  color: #368abf;
+}
+
+.apexcharts-menu-item.exportPNG {
+  color: #368abf;
+}
+
+.apexcharts-menu-item.exportSVG {
+  color: #368abf;
+}

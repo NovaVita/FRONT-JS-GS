@@ -7,6 +7,7 @@ import Home from "./routes/Home/Home.jsx";
 import Login from "./routes/Login/Login.jsx";
 import Aboutus from "./routes/AboutUs/Aboutus.jsx";
 import Cadastro from "./routes/Cadastro/Cadastro.jsx";
+import Monitoramento from "./routes/Monitoramento/Monitoramento.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: "/login", element: <Login /> },
       { path: "/aboutus", element: <Aboutus /> },
       { path: "/cadastro", element: <Cadastro />},
+      { path: "/monitoramento", element: <Monitoramento />},
     ],
   },
 ]);
