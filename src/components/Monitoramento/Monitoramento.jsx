@@ -37,6 +37,8 @@ export default function Monitoramento() {
       });
   };
 
+  // useEffect usado para a base de dados do projeto (dados.json)
+
   useEffect(() => {
     fetchData("http://localhost:3000/t", setDataT);
     fetchData("http://localhost:3000/b", setDataB);
@@ -49,6 +51,21 @@ export default function Monitoramento() {
       fetchData("http://localhost:3000/i", setDataI);
       fetchData("http://localhost:3000/o", setDataO);
     }, 6000);
+
+    // useEffect usado para quem está rodando a API e está com o projeto do Wokwi
+
+    // useEffect(() => {
+    //   fetchData("http://localhost:4000/t", setDataT);
+    //   fetchData("http://localhost:4000/b", setDataB);
+    //   fetchData("http://localhost:4000/i", setDataI);
+    //   fetchData("http://localhost:4000/o", setDataO);
+  
+    //   const interval = setInterval(() => {
+    //     fetchData("http://localhost:4000/t", setDataT);
+    //     fetchData("http://localhost:4000/b", setDataB);
+    //     fetchData("http://localhost:4000/i", setDataI);
+    //     fetchData("http://localhost:4000/o", setDataO);
+    //   }, 6000);
 
     return () => clearInterval(interval);
   }, []);
