@@ -1,4 +1,23 @@
+@import '../../style/_variables.scss';
+
 .imgContainer{
     /* background: rgb(255,227,227); */
     background: linear-gradient(29deg, #f5d4d473 0%, #ffffff48 35%);
+}
+
+.h_ftright{
+    .text-secondary{
+        @media screen and (max-width: 386px) {
+            font-size: 10px;
+          }
+    }
+    .titulo-section{
+        @media screen and (max-width: 386px) {
+            font-size: 20px;
+          }
+    }
+    .contact_btn{
+        color: $titulo-cor !important;
+        border: 1px solid $Bg-titulos-cor !important;
+    }
 }

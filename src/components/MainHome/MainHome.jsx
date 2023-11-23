@@ -48,7 +48,7 @@ export default function MainHome() {
                         {/* <img src={coock} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
                         </div>
                         <div className="w-100">
-                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }}>Monitoramento Remoto</h5>
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Monitoramento Remoto</h5>
                         <p className='text-secondary'>Seja capaz de monitorar o seu dispositivo Soul, ou de algum familiar através do seu celular!</p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export default function MainHome() {
                         {/* <img src={delivery} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
                         </div>
                         <div className="w-100">
-                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }}>Em Tempo Real</h5>
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Em Tempo Real</h5>
                         <p className='text-secondary'>Com sensores top de linha do mercado, o Soul é capaz de mostrar seus sinais vitais extremamente rapido!</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export default function MainHome() {
                         {/* <img src={thumbs} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
                         </div>
                         <div className="w-100">
-                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }}>Praticidade</h5>
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Praticidade</h5>
                         <p className='text-secondary'>O Soul também alerta automaticamente quando algum dos sensores captam valores fora do comum, e se continuar por um determinado período de tempo, ele já agenda uma consulta para você!</p>
                         </div>
                     </div>
