@@ -2,6 +2,7 @@ import  Row  from 'react-bootstrap/Row';
 import  Container from 'react-bootstrap/Container';
 import  Col  from 'react-bootstrap/Col';
 import APP1 from '../../assets/1.png'
+import Historico from "../../assets/10.png"
 import NVAPPSection from '../NVAPPSection/NVAPPSection';
 import "./ConteudoNovaVitaAPP.scss"
 
@@ -39,7 +40,7 @@ export default function ConteudoNovaVitaAPP() {
                     <div className="box">
                     <div className="boxContianer d-flex">
                         <div className="">
-                        {/* <img src={coock} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
+                        <img src={Historico} alt="Tela de historico" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div className="w-100">
                         <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Histórico Médico</h5>
@@ -55,8 +56,8 @@ export default function ConteudoNovaVitaAPP() {
                         {/* <img src={delivery} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
                         </div>
                         <div className="w-100">
-                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Em Tempo Real</h5>
-                        <p className='text-secondary'>Com sensores top de linha do mercado, o Soul é capaz de mostrar seus sinais vitais extremamente rapido!</p>
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Agendamentos e Lembretes</h5>
+                        <p className='text-secondary'>No app, você pode marcar consultas, ver suas ultimas consultas, além dele remarcar suas consultas caso necessário! E ele também te lembra de tomar seus remédios nas horas corretas!</p>
                         </div>
                     </div>
                     </div>
@@ -68,7 +69,7 @@ export default function ConteudoNovaVitaAPP() {
                         {/* <img src={thumbs} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
                         </div>
                         <div className="w-100">
-                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Praticidade</h5>
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Integração com o Soul</h5>
                         <p className='text-secondary'>O Soul também alerta automaticamente quando algum dos sensores captam valores fora do comum, e se continuar por um determinado período de tempo, ele já agenda uma consulta para você!</p>
                         </div>
                     </div>
