@@ -2,7 +2,12 @@ import  Row  from 'react-bootstrap/Row';
 import  Container from 'react-bootstrap/Container';
 import  Col  from 'react-bootstrap/Col';
 import APP1 from '../../assets/1.png'
+import Lembretes from '../../assets/9.png'
 import Historico from "../../assets/10.png"
+import Agendamentos from '../../assets/12.png'
+import MonitoramentoSoul from '../../assets/13.png'
+import Config from '../../assets/14.png'
+import Notificacoes from '../../assets/15.png'
 import NVAPPSection from '../NVAPPSection/NVAPPSection';
 import "./ConteudoNovaVitaAPP.scss"
 
@@ -40,7 +45,7 @@ export default function ConteudoNovaVitaAPP() {
                     <div className="box">
                     <div className="boxContianer d-flex">
                         <div className="">
-                        <img src={Historico} alt="Tela de historico" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} />
+                        <img src={Historico} alt="Tela de historico" className='' style={{ width: '90%', objectFit: 'cover' }} />
                         </div>
                         <div className="w-100">
                         <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Histórico Médico</h5>
@@ -53,11 +58,11 @@ export default function ConteudoNovaVitaAPP() {
                     <div className="box">
                     <div className="boxContianer d-flex">
                         <div className="">
-                        {/* <img src={delivery} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
+                        <img src={Agendamentos} alt="coock" className='' style={{ width: '90%', objectFit: 'cover' }} />
                         </div>
                         <div className="w-100">
-                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Agendamentos e Lembretes</h5>
-                        <p className='text-secondary'>No app, você pode marcar consultas, ver suas ultimas consultas, além dele remarcar suas consultas caso necessário! E ele também te lembra de tomar seus remédios nas horas corretas!</p>
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Agendamentos</h5>
+                        <p className='text-secondary'>No app, você pode marcar consultas, ver suas ultimas consultas, além dele remarcar suas consultas caso necessário!</p>
                         </div>
                     </div>
                     </div>
@@ -66,11 +71,53 @@ export default function ConteudoNovaVitaAPP() {
                     <div className="box">
                     <div className="boxContianer d-flex">
                         <div className="">
-                        {/* <img src={thumbs} alt="coock" className='' style={{ width: '90%', height: '100%', objectFit: 'cover' }} /> */}
+                        <img src={Lembretes} alt="coock" className='' style={{ width: '90%', objectFit: 'cover' }} />
+                        </div>
+                        <div className="w-100">
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Lembretes</h5>
+                        <p className='text-secondary'>O NovaVitaApp também te lembra de quando tomar remedios, você ou o médico, coloca um prazo e de quantas e quantas horas, e ele te avisa automaticamente!</p>
+                        </div>
+                    </div>
+                    </div>
+                </Col>
+                </Row>
+                <Row className='row2'>
+
+                <Col md={4}>
+                    <div className="box">
+                    <div className="boxContianer d-flex">
+                        <div className="">
+                        <img src={MonitoramentoSoul} alt="coock" className='' style={{ width: '90%', objectFit: 'cover' }} />
                         </div>
                         <div className="w-100">
                         <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Integração com o Soul</h5>
-                        <p className='text-secondary'>O Soul também alerta automaticamente quando algum dos sensores captam valores fora do comum, e se continuar por um determinado período de tempo, ele já agenda uma consulta para você!</p>
+                        <p className='text-secondary'>O app é por onde você pode ver a integração com o Soul, nele você monitora todos os sensores do Soul e é pelo app que o Soul te avisa caso algo saia do comum, podendo também auto agendar consultas.</p>
+                        </div>
+                    </div>
+                    </div>
+                </Col>
+                <Col md={4}>
+                    <div className="box">
+                    <div className="boxContianer d-flex">
+                        <div className="">
+                        <img src={Notificacoes} alt="coock" className='' style={{ width: '90%', objectFit: 'cover' }} />
+                        </div>
+                        <div className="w-100">
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Notificações</h5>
+                        <p className='text-secondary'>É pelo app onde o Soul irá te notificar caso algo fora do comum ocorra, ele também ficará marcado no historico quando isso aconteceu, e caso ele marque alguma consulta, ficará registrado quando isso ocorreu! O app também usa esta aba para te lembrar de continuar seu tratamento!</p>
+                        </div>
+                    </div>
+                    </div>
+                </Col>
+                <Col md={4}>
+                    <div className="box">
+                    <div className="boxContianer d-flex">
+                        <div className="">
+                        <img src={Config} alt="coock" className='' style={{ width: '90%', objectFit: 'cover' }} />
+                        </div>
+                        <div className="w-100">
+                        <h5 style={{ color: '#3D3F42', fontWeight: 'bold' }} className='titulos-secundarios'>Configurações</h5>
+                        <p className='text-secondary'>Nesta parte você vai poder costumizar seu perfil, adicionar ou remover informações, controlar o volume das notificações e muito mais!</p>
                         </div>
                     </div>
                     </div>
