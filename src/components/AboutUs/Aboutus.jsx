@@ -136,8 +136,7 @@ function Aboutus() {
           <Card.Body>
             <Card.Title>Rony</Card.Title>
             <Card.Text>
-              Sou fácil de lidar e adoro trabalhar em equipe. Comprometido com o
-              que faço, sempre dou 100%. Aberto a críticas, adoro aprender e
+              Amo programação, Comprometido com o que faço, sempre dou 100%. Sou facil de lidar e adoro trabalhar em equipe. Aberto a críticas, adoro aprender e
               experimentar coisas novas. Valorizo o lado sério das coisas, mas
               também adoro uma boa conversa e explorar o desconhecido.
             </Card.Text>
