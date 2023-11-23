@@ -16,7 +16,7 @@ export default function Teste() {
       <Container>
         <Navbar.Brand href="/">NovaVita</Navbar.Brand>
         <Navbar.Toggle aria-controls="dark-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">
             <NavDropdown title="Acessos" id="basic-nav-dropdown">
               <NavDropdown.Item href="/monitoramento">
