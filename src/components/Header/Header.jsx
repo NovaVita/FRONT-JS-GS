@@ -22,8 +22,9 @@ export default function Teste() {
               <NavDropdown.Item href="/monitoramento">
                 Monitoramento
               </NavDropdown.Item>
-              <NavDropdown.Item href="/novavitaapp">NovaVitaAPP</NavDropdown.Item>
-              <NavDropdown.Item href="/erro404">Page3</NavDropdown.Item>
+              <NavDropdown.Item href="/novavitaapp">
+                NovaVitaAPP
+              </NavDropdown.Item>
 
               <NavDropdown.Divider />
 
