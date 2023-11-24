@@ -74,11 +74,7 @@ O Soul é um dispositivo de monitoramento de saúde que se integra perfeitamente
 
 ## **Configuração**
 
-O site do NovaVita está no ar, e você pode visitá-lo [aqui]().
-
-A API do site foi feita usando um plano gratuito, portanto, caso a API tenha caído no momento em que você abrir o link, entre em contato conosco para colocar-mos ela novamente no ar. Com ela fora de ar, pode haver erros nos dados dos gráficos e na validação de usuário, tanto na página de login quanto na de cadastro.
-
-Caso opte por rodar o site de maneira local, `siga os passos abaixo`:
+`Siga os passos abaixo`:
 
 1. Certifique-se de ter o Node.js instalado em seu sistema antes de começar. Caso ainda não tenha, você pode baixá-lo [aqui](https://nodejs.org/en).
 2. Baixe a pasta do repositório.
@@ -86,38 +82,8 @@ Caso opte por rodar o site de maneira local, `siga os passos abaixo`:
 4. No VSCode, abra o terminal.
 5. Execute o comando `npm install` para instalar as dependências necessárias.
 6. Após a instalação, rode o comando `npm run dev` para colocar o site no ar.
-
-## Configuração da API do Site Local
-
-⚠ Atenção: Essa API funcionará com o dispositivo Soul do Wokwi ligado.
-
-Para configurar a API do site, `siga os passos abaixo` que contém todas as informações necessárias:
-
-1. Baixe a pasta do repositório.
-2. Abra a pasta no Visual Studio Code (VSCode).
-3. No VSCode, abra o terminal.
-4. Execute o comando `npm install` para instalar as dependências necessárias.
-5. No terminal do VSCode, execute o comando `node script js`.
-6. A API estará agora disponível para acesso em http://localhost:3000.
-
-Vale lembrar, para acessar os dados de um sensor específico, basta digitar as seguintes iniciais seguidas de uma barra (`/`) no fim do `http`, como mostrado no exemplo:
-* Exemplo para acessar os dados de temperatura: http://localhost:3000/t
-* t: Temperatura
-* i: Pressão Arterial (infravermelho)
-* b: Batimento Cardíaco
-* o: Oxigênação
-
----
-
-## **Wokwi**
-
-Observação: O sensor infravermelho simula a pressão arterial, mas os valores não correspondem com a pressão de um ser humano real, pois estamos usando a ferramenta que o Wokwi fornece para fazer a simulação do infravermelho.
-
-O protótipo do dispositivo Soul pode ser encontrado clicando [aqui](https://wokwi.com/projects/381491850878962689).
-
-O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Contudo, a versão final do dispositivo Soul será capaz de enviar email automaticamente caso a leitura de um dos sensores saia do padrão ideal.
-
-⚠ Atenção: Este é apenas um protótipo com as ferramentas que o Wokwi pode fornecer. O dispositivo Soul tem como objetivo ser compacto e leve para ficar tranquilamente acoplado no corpo humano sem preocupações. Seus sensores serão de ponta e capazes de captar com precisão todos os dados necessários para monitorar o paciente.
+7. Rode o comando `npm run dados` para colocar o JSON-server no ar.
+8. Para realizar o `login`, pode-se fazer seu `cadastro` ou usar o seguinte login já existente (`e-mail: a@a.com | senha: 123123123`)
 
 ---
 
