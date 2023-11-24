@@ -2,6 +2,8 @@
 
 # Bem-vindo ao repositório oficial de Edge Computing da NovaVita no GitHub! 🚀
 
+Link para o github [aqui](https://github.com/NovaVita/FRONT-JS-GS).
+
 ---
 
 ## **Quem Somos**
