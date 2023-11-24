@@ -63,7 +63,7 @@ O Soul é um dispositivo de monitoramento de saúde que se integra perfeitamente
 
 ## Features Implementadas:
 
-* Botão de Home, Login, Sobre nós Submit, LogOut e Cadastrar;
+* Botão de Home, Login, Sobre nós, Submit, LogOut e Cadastrar;
 * Validação de usuário;
 * Responsividade;
 * Dashboard;
@@ -82,7 +82,7 @@ O Soul é um dispositivo de monitoramento de saúde que se integra perfeitamente
 4. No VSCode, abra o terminal.
 5. Execute o comando `npm install` para instalar as dependências necessárias.
 6. Após a instalação, rode o comando `npm run dev` para colocar o site no ar.
-7. Rode o comando `npm run dados` para colocar o JSON-server no ar.
+7. Abra um outro terminal e rode o comando `npm run dados` para colocar o JSON-server no ar.
 8. Para realizar o `login`, pode-se fazer seu `cadastro` ou usar o seguinte login já existente (`e-mail: a@a.com | senha: 123123123`)
 
 ---
